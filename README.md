@@ -5,7 +5,7 @@
 
 Tiange (Alex) Cui, Saikrithika Gandhi, Chang In Moon, Xiuchen Quek, Xiangying Sun, Lu Yang, Xiaowei Zhu
 
-## Presented Work @ CTF NF Conference 2019
+## Presented Work @ CTF NF Conference on Sep 24th. 2019 
 ![CTF_NF_CONF](https://github.com/moonchangin/nullfuction/blob/master/CTF_LOGO.png)
 
 ## Abstract *: Summarize everything in a few sentences.*
