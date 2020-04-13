@@ -8,13 +8,17 @@ Tiange (Alex) Cui, Saikrithika Gandhi, Chang In Moon, Xiuchen Quek, Xiangying Su
 #### Results:
 https://www.researchtothepeople.org/results
 
-## Presented Work @ CTF NF Conference on Sep 24th. 2019 
+
+## We are one of the WINNING teams for the NF Hackathon 2019! The results were presented @ CTF NF Conference on Sep 24th. 2019 
 ![CTF_NF_CONF](https://github.com/moonchangin/nullfuction/blob/master/CTF_LOGO.png)
 
-## Abstract *: Summarize everything in a few sentences.*
+
+## Abstract *:*
 ![IntroImage](https://github.com/moonchangin/nullfuction/blob/master/introduction.PNG)
 Neurofibromatosis types I (NF1) an autosomal dominant genetic disorder due to mutation in NF1 gene. The clinical manifestations are diverse, and 8-13% of patients develop malignant peripheral neural sheath tumor (MPNST). However, the genetic basis for phenotypic diversity is poorly understood. In our study, we used an integrative analysis on single nucleotide variations (SNVs) and gene expression dysregulation, to characterize the genetic landscape of additional disruptions in plexiform neurofibroma (PN) and MPNST.
-## Introduction *: What's the problem? Why should we solve it?*
+
+
+## Introduction *:*
 #### Neurofibromatosis type 1
 Neurofibromatosis type 1 (NF1) is one of the most common inherited tumor predisposition syndromes, affecting 1:2500-3000 individuals worldwide.[1, 2] As such, affected individuals begin life with one inactivated (germline mutation) copy and one functional copy of the NF1 gene in every cell in their body.[3, 4] The presence of this germline mutation increases the risk of tumor formation, which requires only somatic loss of the remaining functional NF1 gene[5].  
 
@@ -28,7 +32,7 @@ Plexiform neurofibromas are strongly related to NF1, affecting 20% to 40% of pat
 NF1 gene inactivation and loss of NF1 protein (neurofibromin) expression characterize the majority of NF1-MPNSTs.[13] While NF1 loss is necessary for MPNST development, it is not sufficient for malignant transformation. This conclusion is supported by numerous genetically-engineered mouse studies, demonstrating that conditional Nf1 gene inactivation in Schwann cell precursors results in benign plexiform neurofibroma formation only,[14-16] whereas murine MPNST formation requires the co-existence of additional genetic mutations. In both mouse and human MPNSTs, alterations in the TP53, CDKN2A, and EGFR genes have been reported as cooperating secondary genetic alterations that facilitate MPNST development.[17-20] Efforts to identify the full spectrum of cooperating genetic changes important for MPNST pathogenesis have employed many different discovery techniques [21-25]; however, few of the identified genes were shared across studies, and none were accurate predictors of disease pathogenesis or effective in clinical trials.
 
 
-## Methods *: How did we go about solving it?*
+## Methods *:*
 1)    SNV analysis
 We first characterized the burden of deleterious single SNVs in 14 plexiform neurofibroma samples and 10 MPNST samples. The SNVs were selected for 1) population allele frequency < 0.5%, 2) SIFT score < 0.05 and 3) shared among <5 samples. We then defined the burden of a gene as the percentage of subjects that carried at least one the deleterious mutation.
 2)    Gene expression analysis
@@ -36,7 +40,8 @@ We compared the gene expression profile between 6 plexiform neurofibromas and 6 
 3)    Integrative analysis
 We overlaid protein-protein interaction networks to connect genes with extreme burdens of genetic mutations and genes with abnormal expression levels.
 
-## Results *: What did we observe? Figures are great!*
+
+## Results *:*
 ![distance-based](https://github.com/moonchangin/nullfuction/blob/master/alex-fig.png)
 
 Due to limited time, we decided to use a novel distance-based method to have a quick sense of the data. All RNASeq gene expression profiles were converted into Pearson distance and visualized in a 2-D plain. In this way, we can quickly get an overall impression of the data and see if there are some obvious outliers need to be removed.
@@ -49,9 +54,10 @@ Differential gene expression analysis from plexiform neurofibromas and MPNST pat
 
 We identified additional candidate “driver” genes, such as ATM in plexiform neurofibroma and EP300 in MPNST, and our results suggest that cilium function is associated with the progress of neurofibroma. These results were confirmed in an independent dataset through personal communications.
 
+
 ## Conclusion/Discussion: 
 The phenotypic diversity within NF1 is likely due to additional mutations. With the integration of multidiscipline analysis from DNA sequencing, RNA sequencing, as well as the previous knowledge about the gene interactions, we can identify new target genes for further drug discoveries.
-### Please make sure you address ALL of the following:
+
 
 #### *1. What additional data would you like to have*
 A larger cohort of data with well controlled experimental conditions.
@@ -97,7 +103,7 @@ https://sv.ai/neurofibromatosis
 25.	Fang, Y., et al., Molecular characterization of permanent cell lines from primary, metastatic and recurrent malignant peripheral nerve sheath tumors (MPNST) with underlying neurofibromatosis-1. Anticancer Res, 2009. 29(4): p. 1255-62.
 26. Veytsman, B., et al., Distance-based classifiers as potential diagnostic and prediction tools for human diseases.  BMC genomics, 2014. 15 (12), S10.
 
-## Reproduction: *How to reproduce the findings!*
+## Reproduction:*
 
 ### Docker
 
@@ -108,6 +114,4 @@ Instructions for running the following notebooks: *be sure to adjust these instr
 1. `docker pull <your dockerhub repo>/<this container>` command to pull the image from the DockerHub
 2. `docker run <your dockerhub repo>/<this container>` Run the docker image from the master shell script
 
-### Important Resources *: primary data, github repository, Synapse project, dockerfile link etc.*
-
-
+### Important Resources *: see GitHub repo*
